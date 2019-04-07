@@ -4,4 +4,7 @@ abrdd.first()   //Check first value of RDD
 var ac =abrdd.filter(line => line.Length >10)    //Creating new RDD on the basis of filter
 ad.collect()    //Cheking all content in new RDD
 
+var abMap = abrdd.map(line => line.split(" "))    //map function take array as an input and return as a collection
+
+
 
